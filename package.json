@@ -1,7 +1,7 @@
 {
   "name": "levanter",
   "version": "3.7.6",
-  "description": "",
+  "description": "oh hi and bye cause this is where ur nightmare begins",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start . --attach --name levanter",
@@ -9,7 +9,7 @@
     "stop": "pm2 stop levanter",
     "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || yarn add --ignore-engines sharp@0.33.5"
   },
-  "author": "",
+  "author": "BRXKEN",
   "license": "MIT",
   "dependencies": {
     "audio-decode": "^2.2.2",
